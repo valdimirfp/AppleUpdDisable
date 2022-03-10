@@ -1,0 +1,9 @@
+# disable apple updates
+
+table <block.apple> {17.0.0.0/8 104.103.64.0/24 104.109.128.0/24 104.75.53.0/24$
+
+block drop from <block.apple> to any
+
+block drop from any to <block.apple>
+
+
