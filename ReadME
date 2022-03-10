@@ -1,0 +1,4 @@
+# backup
+cat hosts > /etc/hosts
+cat pf.conf > /etc/pf.conf
+pfctl -e -f /etc/pf.conf
