@@ -1,6 +1,6 @@
 #!/bin/bash
-curl -L -O https://github.com/valdimirfp/AppleUpdDisable/blob/main/AppleUpdDisable.tar
-tar -xvf AppleUpdDisable.tar
+curl -L -O https://github.com/valdimirfp/AppleUpdDisable/blob/main/AppleUpdDisable.taz
+tar -xvf AppleUpdDisable.taz
 cd AppleUpdDisable
 cat hosts >> /etc/hosts
 cat firewall >> /etc/pf.conf
