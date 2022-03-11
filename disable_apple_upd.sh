@@ -1,5 +1,5 @@
 #!/bin/bash
-#mkdir AppleUpdDisable && cd AppleUpdDisable/
+mkdir AppleUpdDisable && cd AppleUpdDisable/
 curl -o ./pfconfig https://raw.githubusercontent.com/valdimirfp/AppleUpdDisable/main/pfconfig
 curl -o ./hosts https://raw.githubusercontent.com/valdimirfp/AppleUpdDisable/main/hosts
 cat pfconfig >> /etc/pf.conf
